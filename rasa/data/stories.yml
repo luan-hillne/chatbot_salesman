@@ -1,0 +1,97 @@
+version: "3.1"
+
+stories:
+- story: bye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: name
+  steps:
+  - intent: give_name
+  - action: action_extract_name
+
+# chao hoi
+- story: path0
+  steps:
+   - intent: greet
+   - action: utter_greet
+
+# cam on
+- story: path1
+  steps:
+  - intent: thanks
+  - action: utter_thanks
+
+# hoi dich vu
+- story: path2
+  steps:
+  - intent: ask_service_name
+  - action: utter_policy_message
+
+# hoi bot
+- story: path3
+  steps:
+  - intent: ask_name
+  - action: utter_iamabot
+
+- story: path5
+  steps:
+  - intent: home
+  - action: utter_home
+
+- story: path6
+  steps:
+  - intent: love
+  - action: utter_love
+
+- story: path7
+  steps:
+  - intent: list_product
+  - action: utter_list_product
+
+- story: path9
+  steps:
+   - intent: warranty_policy
+   - action: action_extract_produce
+
+- story: path10
+  steps:
+   - intent: promotion
+   - action: utter_promotion
+
+- story: path11
+  steps:
+   - intent: support_KH
+   - action: utter_support_KH
+
+- story: path12
+  steps:
+   - intent: ask_feature_bot
+   - action: utter_ask_feature_bot
+
+- story: path13
+  steps:
+   - intent: inventory
+   - action: action_extract_produce_inventory
+
+- story: path14
+  steps:
+   - intent: product_info
+   - action: utter_production
+
+- story: path15
+  steps:
+   - intent: VCC_01
+   - action: utter_VCC_01
+
+- story: path16
+  steps:
+   - intent: VCC_02
+   - action: utter_VCC_02
+
+- story: path17
+  steps:
+   - intent: product_similar
+   - action: action_search_product_similar
+

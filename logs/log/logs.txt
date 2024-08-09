@@ -1,0 +1,399 @@
+/data/anaconda3/envs/langchain/lib/python3.10/site-packages/fuzzywuzzy/fuzz.py:11: UserWarning: Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning
+  warnings.warn('Using slow pure-python SequenceMatcher. Install python-Levenshtein to remove this warning')
+/data/anaconda3/envs/langchain/lib/python3.10/site-packages/langchain_core/_api/deprecation.py:139: LangChainDeprecationWarning: The class `ChatOpenAI` was deprecated in LangChain 0.0.10 and will be removed in 0.2.0. An updated version of the class exists in the langchain-openai package and should be used instead. To use it run `pip install -U langchain-openai` and import as `from langchain_openai import ChatOpenAI`.
+  warn_deprecated(
+INFO:     Started server process [605209]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8099 (Press CTRL+C to quit)
+/data/anaconda3/envs/langchain/lib/python3.10/site-packages/langchain_core/_api/deprecation.py:139: LangChainDeprecationWarning: The method `Chain.run` was deprecated in langchain 0.1.0 and will be removed in 0.2.0. Use invoke instead.
+  warn_deprecated(
+---- grog ----
+key: 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
+Logging setup complete.
+----------------NEW_SESSION--------------
+NumberRequest 1
+User  =  428950
+InputText  =  điều hòa giá rẻ 
+----ChatText-----
+----------------NEW_SESSION--------------
+user_id  =  428950
+input_text  =  điều hòa giá rẻ 
+sesstion id  =  900775249
+======rasa======
+response.json(): [{'recipient_id': 'test', 'text': 'LLM_predict'}]
++rasa out+:
+ LLM_predict
+====rasa done!====
+======LLM======
+Có phải bạn tìm kiếm sản phẩm thiết bị gia dụng quạt điều hòa không khí everest 6000d
+Độ match: 73
+giá
+= = = = result few short = = = =: {'object': ['điều hòa'], 'price': "['giá rẻ']", 'power': '', 'weight': '', 'volume': '', 'specifications': ''}
+Index chatbot already exists.
+Có phải bạn tìm kiếm sản phẩm điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023
+Độ match: 100
+check_match_product ('điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023', 100)
+------check object---- ['điều hòa']
+Có phải bạn tìm kiếm sản phẩm điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023
+Độ match: 100
+-----time elastic search-------: 0.18339276313781738
+======== elasticsearch output ==========:
+ 
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+3. *điều hòa 1 chiều carrier inverter 9000 btu/h (1 hp) - model 2023 - Mã: 019014000001
+  Thông số sản phẩm: loại: điều hòa 1 chiều inverter
+
+công suất: 9.000 btu/h (1 hp)
+
+diện tích sử dụng: dưới 15m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 1.15 kw/h
+sưởi ấm: -
+hiệu suất năng lượng: 5.8 (a++)
+
+gas: r32
+
+chế độ inverter: có
+
+chức năng:
+
+làm lạnh nhanh
+tự làm sạch
+lọc bụi mịn pm2.5
+khử mùi
+chế độ gió coanda
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 22/19 db(a)
+dàn nóng: 52/48 db(a)
+kích thước:
+
+dàn lạnh: 800 x 295 x 200 mm
+dàn nóng: 770 x 285 x 540 mm
+trọng lượng:
+
+dàn lạnh: 12 kg
+dàn nóng: 25 kg
+ - Giá tiền: 9,423,040 đ*
+
+4. *điều hòa carrier 1 chiều inverter 12.000 btu/h (1.5 hp) - model 2023 - Mã: 019014000002
+  Thông số sản phẩm: loại: điều hòa 1 chiều inverter
+
+công suất: 12.000 btu/h (1.5 hp)
+
+diện tích sử dụng: 15 - 20m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 1.20 kw/h
+sưởi ấm: -
+hiệu suất năng lượng: 5.8 (a++)
+
+gas: r32
+
+chế độ inverter: có
+
+chức năng:
+
+làm lạnh nhanh
+tự làm sạch
+lọc bụi mịn pm2.5
+khử mùi
+chế độ gió coanda
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 22/19 db(a)
+dàn nóng: 52/48 db(a)
+kích thước:
+
+dàn lạnh: 840 x 295 x 200 mm
+dàn nóng: 770 x 285 x 540 mm
+trọng lượng:
+
+dàn lạnh: 13 kg
+dàn nóng: 25 kg
+ - Giá tiền: 11,200,420 đ*
+
+=====save_storage==== 
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+3. *điều hòa 1 chiều carrier inverter 9000 btu/h (1 hp) - model 2023 - Mã: 019014000001
+  Thông số sản phẩm: loại: điều hòa 1 chiều inverter
+
+công suất: 9.000 btu/h (1 hp)
+
+diện tích sử dụng: dưới 15m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 1.15 kw/h
+sưởi ấm: -
+hiệu suất năng lượng: 5.8 (a++)
+
+gas: r32
+
+chế độ inverter: có
+
+chức năng:
+
+làm lạnh nhanh
+tự làm sạch
+lọc bụi mịn pm2.5
+khử mùi
+chế độ gió coanda
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 22/19 db(a)
+dàn nóng: 52/48 db(a)
+kích thước:
+
+dàn lạnh: 800 x 295 x 200 mm
+dàn nóng: 770 x 285 x 540 mm
+trọng lượng:
+
+dàn lạnh: 12 kg
+dàn nóng: 25 kg
+ - Giá tiền: 9,423,040 đ*
+
+4. *điều hòa carrier 1 chiều inverter 12.000 btu/h (1.5 hp) - model 2023 - Mã: 019014000002
+  Thông số sản phẩm: loại: điều hòa 1 chiều inverter
+
+công suất: 12.000 btu/h (1.5 hp)
+
+diện tích sử dụng: 15 - 20m²
+
+mức tiêu thụ điện:
+
+làm lạnh: 1.20 kw/h
+sưởi ấm: -
+hiệu suất năng lượng: 5.8 (a++)
+
+gas: r32
+
+chế độ inverter: có
+
+chức năng:
+
+làm lạnh nhanh
+tự làm sạch
+lọc bụi mịn pm2.5
+khử mùi
+chế độ gió coanda
+hẹn giờ
+điều khiển từ xa
+độ ồn:
+
+dàn lạnh: 22/19 db(a)
+dàn nóng: 52/48 db(a)
+kích thước:
+
+dàn lạnh: 840 x 295 x 200 mm
+dàn nóng: 770 x 285 x 540 mm
+trọng lượng:
+
+dàn lạnh: 13 kg
+dàn nóng: 25 kg
+ - Giá tiền: 11,200,420 đ*
+
+query text in chat điều hòa giá rẻ 
+= =  Conversation  = =
+======total_tokens=====
+ 1688
+insert_chat_message sucessfully!
++LLM out+:
+ Nếu bạn đang tìm kiếm điều hòa giá rẻ, tôi có thể giới thiệu cho bạn một số sản phẩm sau:
+
+1. Điều hòa MDV - Biến tần 9000 btu - Mã: 019013000001
+- Bảo hành 3 năm cho sản phẩm
+- Công suất: 9000 btu/h
+- Xuất xứ: Thái Lan
+- Giá tiền: 6,014,184 đ
+
+Đây là sản phẩm có giá cả phải chăng và hiệu suất năng lượng cao. Nếu bạn cần thêm thông tin chi tiết, hãy cho tôi biết!
+======LLM done!======
+logs_chat_saleman sucessfully!
+results: {'products': [{'code': 606038, 'name': 'điều hòa mdv - inverter 9000 btu', 'link': '//input/mobile_images/2024/2/21/229/Điều hòa MDVG-1Inverter 9000 BTU (3).png'}, {'code': 609541, 'name': 'điều hòa mdv 1 chiều 12000 btu - model 2023', 'link': '//input/mobile_images/2024/2/23/380/Máy Giặt Aqua 9 Kg  AQW-F91GT.S.png'}, {'code': 609530, 'name': 'điều hòa 1 chiều carrier inverter 9000 btu/h (1 hp) - model 2023', 'link': '//input/mobile_images/2024/2/23/949/ĐIỀU HOÀ CARRIER INVERTER 1 chiều 9000 BTU 2023.png'}, {'code': 609531, 'name': 'điều hòa carrier 1 chiều inverter 12.000 btu/h (1.5 hp) - model 2023', 'link': '//input/mobile_images/2024/2/23/846/ĐIỀU HOÀ CARRIER INVERTER 1 chiều 12000 BTU 2023 (2).png'}], 'product_similarity': [], 'terms': [{'payload': 'similarity_status_true', 'title': 'Bạn muốn tìm kiếm sản phẩm tương tự?'}], 'inventory_status': False, 'similarity_status': False, 'content': 'Nếu bạn đang tìm kiếm điều hòa giá rẻ, tôi có thể giới thiệu cho bạn một số sản phẩm sau:\n\n1. Điều hòa MDV - Biến tần 9000 btu - Mã: 019013000001\n- Bảo hành 3 năm cho sản phẩm\n- Công suất: 9000 btu/h\n- Xuất xứ: Thái Lan\n- Giá tiền: 6,014,184 đ\n\nĐây là sản phẩm có giá cả phải chăng và hiệu suất năng lượng cao. Nếu bạn cần thêm thông tin chi tiết, hãy cho tôi biết!', 'status': 200, 'message': '', 'time_processing': 3.110318660736084, 'type_input': 'text', 'total_tokens': 1688, 'error_code': ''}
+INFO:     10.248.242.202:39488 - "POST /llm HTTP/1.1" 200 OK
+Logging setup complete.
+----------------NEW_SESSION--------------
+NumberRequest 2
+User  =  428950
+InputText  =  None
+logs_chat_saleman sucessfully!
+results: {'products': [], 'product_similarity': [], 'terms': [{'payload': 'Bạn muốn tra cứu hàng tồn kho?', 'title': 'Bạn muốn tra cứu hàng tồn kho?'}, {'payload': 'Tôi cần máy giặt nào có khối lượng giặt 10kg?', 'title': 'Tôi cần máy giặt nào có khối lượng giặt 10kg?'}, {'payload': 'Tôi quan tâm điều hòa có giá trên 10 triệu', 'title': 'Tôi quan tâm điều hòa có giá trên 10 triệu'}, {'payload': 'Đèn năng lượng mặt trời công suất 90W', 'title': 'Đèn năng lượng mặt trời công suất 90W'}], 'inventory_status': False, 'similarity_status': False, 'content': 'Rất vui khi được hỗ trợ anh/chị trong việc tìm kiếm sản phẩm. Do đang trong quá trình hoàn thiện nên tôi có thể mắc lỗi. Mong anh/chị thông cảm!', 'status': 200, 'message': '', 'time_processing': 0.0018606185913085938, 'type_input': 'first_text', 'total_tokens': '', 'error_code': ''}
+INFO:     10.248.242.202:39490 - "POST /llm HTTP/1.1" 200 OK
+Logging setup complete.
+----------------NEW_SESSION--------------
+NumberRequest 3
+User  =  428950
+InputText  =  None
+----Image-----
+response: {'status': 201, 'message': 'Không tìm thấy sản phẩm như vậy.', 'result': None, 'socre': 0.4724327981472015, 'time processing': 9.521466970443726}
+INFO:     10.248.242.202:39492 - "POST /llm HTTP/1.1" 200 OK
+Logging setup complete.
+----------------NEW_SESSION--------------
+NumberRequest 4
+User  =  428950
+InputText  =  None
+----Image-----
+response: {'status': 200, 'message': 'Sản phẩm đã được tìm thấy.', 'result': ['Điều hòa'], 'socre': 0.7171607494354248, 'time processing': 8.307848453521729}
+Index chatbot already exists.
+Có phải bạn tìm kiếm sản phẩm điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023
+Độ match: 100
+check_match_product ('điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023', 100)
+------check object---- ['Điều hòa']
+Có phải bạn tìm kiếm sản phẩm điều hòa carrier 1 chiều inverter 18.000 btu/h (2 hp) - model 2023
+Độ match: 100
+-----time elastic search-------: 0.12546420097351074
+======== elasticsearch output ==========:
+ 
+1. *điều hòa mdv - inverter 9000 btu - Mã: 019013000001
+  Thông số sản phẩm: nguồn điện: 220-240v
+công suất: 9500 btu/h
+công suất tiêu thụ: 745 w
+cường độ dòng điện: 3.4 a
+err: 3.54 w/w
+inverter : có
+kích thước máy trong ( dxrxc): 726x210x291 (mm)
+khối lượng thực máy trong/ khối lượng đóng gói: 8.2/10.3 kg
+kích thước máy ngoài (dxrxc): 835x300x540 (mm)
+khối lương thực máy ngoài / khối lượng đóng gói: 21.7/23.2 kg
+loại gas/ khối lượng nạp: r32/0.38
+ap suất thiết kế: 4.3/1.7 mpa
+chiều dài đường ống tối đa: 25m
+chênh lệch độ cao tối đa: 10m
+phạm vi lành lạnh hiệu quả : 12~18 m2
+hiệu suất năng lượng : 4.48 cspf
+bảo hành 3 năm cho sản phẩm
+bảo hành 5 năm cho máy nén
+suất xứ : thái lan
+ - Giá tiền: 6,014,184 đ*
+
+2. *quạt điều hòa không khí everest 6000d - Mã: M&EGD000154
+  Thông số sản phẩm: • điện áp: 220v - 50hz
+• kích thước: (dài) 440 x (rộng) 340 x (cao) 970 mm
+• lưu lượng gió: 6000m3/h
+• dung tích khay chứa nước: 45l
+• công suất: 80w
+• điều khiển từ xa: có
+• cảm biến chất lượng không khí: có
+• chức năng tạo ion: có
+• tốc độ gió: 3 tốc độ
+• hướng gió: 4 chiều trái phải, lên xuống
+ - Giá tiền: 2,427,000 đ*
+
+3. *điều hòa mdv 1 chiều 12000 btu - model 2023 - Mã: 019013000004
+  Thông số sản phẩm: model: mdvg-13crdn8
+công suất: 12.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 15 - 20m²
+gas: r32
+mức tiêu thụ điện: 1.15 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 810 x 285 x 210 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 14 kg
+trọng lượng dàn nóng: 25 kg
+ - Giá tiền: 7,246,030 đ*
+
+4. *điều hòa mdv 1 chiều inverter 18000 btu - model 2023 - Mã: 019013000003
+  Thông số sản phẩm: model: mdvg-18crdn8
+công suất: 18.000 btu/h
+loại: 1 chiều inverter
+diện tích sử dụng: 20 - 30m²
+gas: r32
+mức tiêu thụ điện: 1.65 kw/h
+độ ồn: 22/19 db(a)
+kích thước dàn lạnh: 969 x 320 x 241 mm
+kích thước dàn nóng: 770 x 285 x 540 mm
+trọng lượng dàn lạnh: 18 kg
+trọng lượng dàn nóng: 28 kg
+ - Giá tiền: 11,740,520 đ*
+
+query text in chat tôi cần tìm sản phẩm Điều hòa,
+= =  Conversation  = =
+======total_tokens=====
+ 1785
+insert_chat_message sucessfully!
+time predict conver:  7.152557373046875e-07
+results in chat {'terms': [{'payload': 'similarity_status_true', 'title': 'Bạn muốn tìm kiếm sản phẩm tương tự với nhu cầu'}], 'out_text': 'Tôi có thể giới thiệu cho bạn một số sản phẩm điều hòa sau:\n\n1. Điều hòa MDV - Biến tần 9000 btu - Mã: 019013000001\n- Bảo hành 3 năm cho sản phẩm\n- Công suất: 9000 btu/h\n- Xuất xứ: Thái Lan\n- Giá tiền: 6,014,184 đ\n\n2. Điều hòa MDV 1 chiều 12000 btu - Model 2023 - Mã: 019013000004\n- Công suất: 12.000 btu/h\n- Diện tích sử dụng: 15 - 20m²\n- Gas: R32\n- Mức tiêu thụ điện: 1.15 kw/h\n- Giá tiền: 7,246,030 đ\n\n3. Điều hòa MDV 1 chiều inverter 18000 btu - Model 2023 - Mã: 019013000003\n- Công suất: 18.000 btu/h\n- Diện tích sử dụng: 20 - 30m²\n- Gas: R32\n- Mức tiêu thụ điện: 1.65 kw/h\n- Giá tiền: 11,740,520 đ\n\nNếu bạn cần thêm thông tin chi tiết về từng sản phẩm, hãy cho tôi biết!', 'inventory_status': False, 'products': [{'code': 606038, 'name': 'điều hòa mdv - inverter 9000 btu', 'link': '//input/mobile_images/2024/2/21/229/Điều hòa MDVG-1Inverter 9000 BTU (3).png'}, {'code': 577872, 'name': 'quạt điều hòa không khí everest 6000d', 'link': '//input/mobile_images/2024/2/18/250/QUẠT ĐIỀU HOÀ KHÔNG KHÍ EVEREST 6000D.png'}, {'code': 609541, 'name': 'điều hòa mdv 1 chiều 12000 btu - model 2023', 'link': '//input/mobile_images/2024/2/23/380/Máy Giặt Aqua 9 Kg  AQW-F91GT.S.png'}, {'code': 609542, 'name': 'điều hòa mdv 1 chiều inverter 18000 btu - model 2023', 'link': '//input/mobile_images/2024/2/23/367/Máy Giặt Aqua 9 Kg  AQW-F91GT.S (2).png'}], 'similarity_status': False, 'total_tokens': 1785}
+logs_chat_saleman sucessfully!
+INFO:     10.248.242.202:39494 - "POST /llm HTTP/1.1" 200 OK

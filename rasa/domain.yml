@@ -1,0 +1,118 @@
+version: '3.1'
+
+intents: 
+- give_name
+- ask_name  
+- thanks
+- goodbye 
+- greet 
+- home 
+- love
+- list_product
+- promotion
+- support_KH 
+- ask_service_name 
+- warranty_policy 
+- inventory 
+- product_info 
+- product_similar
+- VCC_01
+- VCC_02
+entities:
+- user_name
+- produce_name_policy
+- produce_name_inventory
+- search_product_similar
+responses:
+  utter_home:
+    - text: Tôi là một trợ lý ảo và không có một nơi cụ thể để ở. Tôi được tạo ra để hỗ trợ Anh/chị trong việc mua sắm và cung cấp thông tin hữu ích. Anh/chị có câu hỏi hoặc yêu cầu gì khác không? Tôi sẽ cố gắng giúp Anh/chị.
+  
+  utter_greet:
+  - text: |-
+      Xin chào Anh/chị! Tôi là trợ lý mua sắm của VCC.
+      Tôi có thể giúp Anh/chị trả lời các câu hỏi liên quan đến mua sắm. Anh/chị có thể hỏi về các sản phẩm cụ thể, thông tin về giá cả, sản phẩm tương tự, hoặc bất kỳ câu hỏi nào liên quan đến dịch vụ. Hãy cho tôi biết nếu Anh/chị có bất kỳ câu hỏi nào khác!
+  - text: |-
+      Chào Anh/chị! Tôi là trợ lý mua sắm của VCC.
+      Tôi có thể giúp Anh/chị trả lời các câu hỏi liên quan đến mua sắm. Anh/chị có thể hỏi về các sản phẩm cụ thể, thông tin về giá cả, sản phẩm tương tự, hoặc bất kỳ câu hỏi nào liên quan đến dịch vụ. Hãy cho tôi biết nếu Anh/chị có bất kỳ câu hỏi nào khác!
+  - text: |-
+      Xin chào! Tôi là trợ lý mua sắm của VCC. Anh/chị có thể hỏi tôi về sản phẩm, giá cả, và các dịch vụ khác. Có điều gì Anh/chị muốn biết thêm không?
+  - text: |-
+      Chào Anh/chị! Tôi là trợ lý mua sắm của VCC. Tôi ở đây để hỗ trợ Anh/chị với thông tin sản phẩm và dịch vụ. Anh/chị cần tôi giúp gì không?
+  
+  utter_goodbye:
+  - text: |-
+      Rất vui được giúp Anh/chị!
+      Nếu Anh/chị có bất kỳ câu hỏi hoặc yêu cầu nào khác, hãy để tôi biết. Tôi sẽ cố gắng giúp Anh/chị trong khả năng của mình. Chúc Anh/chị có một trải nghiệm mua sắm tuyệt vời!
+  
+  utter_ask_feature_bot:
+  - text: |-
+      Tôi có thể thực hiện những yêu cầu sau: 
+          1. Tìm kiếm thông tin sản phẩm mà anh/chị yêu cầu 
+          2. Đưa ra các thông tin chi tiết về sản phẩm 
+          3. Đưa ra giá thành sản phẩm với số tiền Anh/chị có 
+          4. Gợi ý những sản phẩm tương tự 
+      Hãy cho tôi biết Anh/chị quan tâm đến dịch vụ nào, hoặc nếu Anh/chị cần thêm thông tin chi tiết về bất kỳ dịch vụ nào.
+  
+  utter_love:
+  - text: Vì tôi chỉ là một trợ lý ảo không có cảm xúc và khả năng tương tác cá nhân, nên tôi không có khái niệm về việc có người yêu hay không. Tuy nhiên, nếu Anh/chị có bất kỳ câu hỏi nào về sản phẩm hoặc dịch vụ Anh/chị quan tâm, tôi sẽ rất vui được giúp đỡ!
+  
+  utter_thanks:
+  - text: |-
+      Cảm ơn Anh/chị về lời khen!
+      Tôi được thiết kế để hỗ trợ Anh/chị trong việc mua sắm của VCC và cung cấp thông tin chi tiết về sản phẩm, giá cả và các dịch vụ của VCC. Nếu Anh/chị có bất kỳ câu hỏi nào hoặc cần giúp đỡ về mua sắm của VCC, hãy nói cho tôi biết và tôi sẽ cố gắng giúp Anh/chị một cách tốt nhất.
+  - text: Không có gì, rất vui được giúp Anh/chị! Nếu Anh/chị có bất kỳ câu hỏi nào hoặc cần hỗ trợ trong mua sắm của VCC, đừng ngần ngại hỏi tôi. Tôi sẽ cố gắng giúp Anh/chị.
+  - text: Rất vui được giúp Anh/chị! Nếu Anh/chị có bất kỳ câu hỏi nào hoặc cần hỗ trợ trong mua sắm của VCC, đừng ngần ngại hỏi tôi. Tôi sẽ cố gắng giúp Anh/chị. Anh/chị có câu hỏi hoặc yêu cầu gì khác không?
+  - text: Không có gì, rất vui được giúp Anh/chị! Nếu Anh/chị có bất kỳ câu hỏi nào hoặc cần hỗ trợ trong mua sắm của VCC, đừng ngần ngại hỏi tôi. Tôi sẽ cố gắng giúp Anh/chị. Anh/chị có câu hỏi hoặc yêu cầu gì khác không
+  
+  utter_iamabot:
+  - text: |-
+      Xin chào! Tôi là trợ lý mua sắm của VCC.
+      Tôi có thể giúp Anh/chị tìm kiếm thông tin sản phẩm, trả lời các câu hỏi liên quan đến mua sắm của VCC. Anh/chị có thể hỏi về các sản phẩm cụ thể, thông tin về giá cả, sản phẩm tương tự, hoặc bất kỳ câu hỏi nào liên quan đến dịch vụ. 
+      Hãy cho tôi biết nếu Anh/chị có bất kỳ câu hỏi nào khác!
+  - text: |-
+      Xin chào! Em là trợ lý mua sắm VCC. Em có thể tìm kiếm thông tin sản phẩm, trả lời các câu hỏi liên quan đến mua sắm của VCC.
+  - text: |- 
+      Chào anh/chị. Em là trợ lý mua sắm VCC. Em có thể tìm kiếm thông tin sản phẩm, trả lời các câu hỏi liên quan đến mua sắm của VCC.
+      
+  utter_list_product:
+  - text: |-
+      Chúng tôi cung cấp đa dạng các sản phẩm, bao gồm:
+      +Thiết bị nhà bếp: Bình nước nóng, Bình đun nước, Lò vi sóng, Máy xay, Nồi chiên không dầu, Nồi cơm điện, Nồi áp suất
+      +Thiết bị gia đình: Bàn là - Bàn ủi, Máy sấy tóc, Ghế massage Daikiosan, Máy giặt, Máy sấy, Máy lọc không khí - Máy hút bụi, Máy lọc nước, Robot hút bụi
+      +Thiết bị thông minh: Thiết bị Wifi, Thiết bị Webcam.
+      +Thiết bị đèn năng lượng mặt trời: Đèn nlmt sân vườn ufo 150w, Bộ đèn đường năng lượng mặt trời suntek, Đèn tín hiệu giao thông năng lượng mặt trời suntek tl-01,...
+      Hôm nay Anh/chị muốn tìm hiểu về sản phẩm nào của VCC?
+  
+  utter_promotion:
+  - text: Hiện tại chúng tôi chưa có chương trình khuyến mãi và giảm giá nào.
+  
+  utter_support_KH:
+  - text: |-
+      Nếu Anh/chị gặp vấn đề với đơn hàng của mình, Anh/chị có thể liên hệ với bộ phận VCC để được hỗ trợ. Trong vòng 48 giờ, Anh/chị có thể liên hệ với VCC và cung cấp các bằng chứng liên quan (nếu có) để họ có thể giải quyết vấn đề của Anh/chị một cách nhanh chóng. Anh/chị có thể liên hệ với VCC thông qua chat trực tuyến trên trang web hoặc ứng dụng bán hàng của VCC.
+  
+  utter_policy_message:
+  - buttons:
+      - payload: /Đưa ra chính sách bảo hành
+        title: "Đưa ra chính sách bảo hành"
+    text: "Nếu Anh/chị cần biết thêm thông tin hoặc có yêu cầu cụ thể về dịch vụ của VCC, xin vui lòng cho biết."
+  
+  utter_VCC_01:
+  - text: Chủ tịch của Viettel là Thiếu tướng Tào Đức Thắng!
+ 
+  utter_VCC_02:
+  - text: Viettel được thành lập vào ngày 1/6/1989!
+  
+  utter_production:
+  - text: LLM_predict
+  
+  utter_default:
+  - text: LLM_predict
+
+actions:
+- action_extract_name
+- action_extract_produce
+- action_extract_produce_inventory
+- action_search_product_similar
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

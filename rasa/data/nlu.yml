@@ -1,0 +1,487 @@
+version: "3.1"
+nlu:
+- intent: give_name
+  examples: |
+    - Tôi tên là [Nam](user_name)
+    - Tôi tên là [cún con](user_name)
+    - Tôi tên là [đáng yêu](user_name)
+    - Tôi tên là [đáng yêu Quá](user_name)
+    - Tôi tên là [Hoàng nam](user_name)
+    - Chị tên là [Hoa](user_name)
+    - Chị tên là [Mai Hoa](user_name)
+    - Chị tên là [mai hoa](user_name)
+    - Chị tên là [bé mèo](user_name)
+    - Anh tên là [Long](user_name)
+    - Anh tên là [Hoàng Anh](user_name)
+    - Anh tên là [Quang huy](user_name)
+    - Anh tên là [Quang Huy](user_name)
+    - Anh tên là [xuan long](user_name)
+    - Anh tên là [tran van long](user_name)
+    - Anh ten la [tran van long](user_name)
+    - Tôi là [nam xinh trai](user_name)
+    - Tên anh là [Nguyễn Hữu Đạt](name)
+    - Tên anh là [Phạm Thị Thu Uyên](user_name)
+    - Tên anh là [Lương Sơn Bạc](user_name)
+    - Tên anh là [Vũ Văn Hùng](user_name)
+    - Tên anh là [Trịnh Hoàng Anh Lai](user_name)
+    - Tên anh là [Vũ Thế Phương](user_name)
+    - Tên anh là [Đoàn Thị Dân](user_name)
+    - Tên anh là [Giang Thanh Hải](user_name)
+    - Tên anh là [Đào Phương Thảo](user_name)
+    - Tên anh là [Hoàng Văn Thái](user_name)
+    - Tên anh là [Lưu Khánh Ly](user_name)
+    - Tên anh là [Chu Thị Ngọc Anh](user_name)
+    - Tên anh là [Phùng Thị Lan Ly](user_name)
+    - Tên anh là [Dương Thị NGọc Anh](user_name)
+    - Tên anh là [Đinh Thị Diệu Linh](user_name)
+    - Tên anh là [Âu Dương Phong](user_name)
+    - Tôi là [cún con](user_name)
+    - Tôi là [đáng yêu](user_name)
+    - Tôi là [Hoàng nam](user_name)
+    - Chị là [Hoa](user_name)
+    - Chị là [Mai Hoa](user_name)
+    - Chị là [Mai Hoa thung](user_name)
+    - Chị là [mai hoa](user_name)
+    - Chị là [bé mèo](user_name)
+    - Anh là [Long](user_name)
+    - Anh là [vũ mai phương](user_name)
+    - Anh là [Hoàng Anh](user_name)
+    - Anh là [Quang huy](user_name)
+    - Anh là [Quang Huy](user_name)
+    - Anh là [xuan long](user_name)
+    - Anh tên là [tran van long](user_name)
+    - Anh tên [Long](user_name)
+    - Anh tên [Hoàng Anh](user_name)
+    - Anh tên [Quang huy](user_name)
+    - Anh tên [Quang Huy](user_name)
+    - Anh tên [xuan long](user_name)
+    - Anh tên [tran van long](user_name)
+    - Anh tên [bé bụng to](user_name)
+    - Anh tên [bé hạt tiêu](user_name)
+    - Mình tên là [Phúc](user_name)
+    - Mình tên [Phát](user_name)
+    - Em tên [Hà](user_name) nhé
+    - Huy[Nam](user_name)
+    - Gọi mình là [Phụng](user_name) nha
+    - Tôi tên [Hoàng](user_name)
+    - chị tên [Cúc](user_name)
+    - anh tên [Đức](user_name)
+    - [Tuấn](user_name) nhé
+    - [tran van binh](user_name)
+    - [trần văn bình](user_name)
+    - [Lĩnh](user_name
+    - [Thành](user_name)
+    - [Đăng](user_name)
+    - [nguyễn tiến đạt](user_name)
+    - [Vy](user_name)
+    - [Loan](user_name)
+    - [Phú](user_name)
+    - [Thiện](user_name)
+    - Anh [Huy](user_name)
+    - Anh [Huy Long](user_name)
+    - Anh [Huy vũ](user_name)
+    - Anh [Quang Long](user_name)
+    - Anh [Trần Xuân Long](user_name)
+    - anh [Long](user_name)
+    - Anh [quang vu](user_name)
+    - Anh [Văn hồng](user_name)
+    - Anh [trần văn hồng](user_name)
+    - Chị [Linh](user_name)
+    - chị [Huyền](user_name)
+    - chị [Huyền Anh](user_name)
+    - chị [Huyền anh](user_name)
+    - chị [tran huyen anh](user_name)
+    - chị [trần Huyền anh](user_name)
+    - chị [trần huyền Anh](user_name)
+    - là [Minh](user_name)
+    - là [David](user_name)
+    - tên [Sung](user_name)
+    - tôi tên là [bun bo](user_name)
+    - tôi tên là [bún bò](user_name)
+    - tôi tên là [Bé Mèo](user_name)
+    - [Nguyễn Hữu Đạt](name)
+    - [Phạm Thị Thu Uyên](user_name)
+    - [Lương Sơn Bạc](user_name)
+    - [Vũ Văn Hùng](user_name)
+    - [Trịnh Hoàng Anh Lai](user_name)
+    - [Vũ Thế Phương](user_name)
+    - [Đoàn Thị Dân](user_name)
+    - [Giang Thanh Hải](user_name)
+    - [Đào Phương Thảo](user_name)
+    - [Hoàng Văn Thái](user_name)
+    - [Mai Lương Hoài Phương](user_name)
+    - tên là [Bùi Vân Khánh](user_name)
+    - tên [đặng thúy hiền](user_name)
+    - tên của tôi [Trần Đức Long](user_name)
+    - tên tôi là [Lê Thị Thủy Tiên](user_name)
+    - tên tôi là [Thủy Tiên](user_name)
+    - tên tôi là [thị Thủy Tiên](user_name)
+    - chị tên [Đõ Thị Chung](user_name)
+    - chị tên [Kiều Phương Quỳnh](user_name)
+    - tên anh là [thị Thủy Tiên](user_name)
+    - tên anh là [bé đào xinhh](user_name)
+    - tên anh là [Lê Thị Thủy Tiên nữ](user_name)
+- intent: love
+  examples: |
+    - em có người yêu chưa?
+    - mày có người yêu chưa?
+    - em có yêu anh không?
+    - em co nguoi yeu chua
+    - aye
+    - bạn có người yêu chưa
+    - anh yêu em
+    - anh ghét em
+    - I hate you
+    - I love you
+    - i love you
+
+- intent: home 
+  examples: |
+    - nhà em ở đâu?
+    - cho anh xin cái địa chỉ
+    - mày ở đâu?
+    - nhà em chỗ nào?
+    - quê em ở đâu?
+    - ở đâu
+
+- intent: greet 
+  examples: |
+    - hey
+    - hello
+    - Hello
+    - Hi
+    - hi
+    - good morning
+    - good evening
+    - good afternoon
+    - Xin chào
+    - xin chào
+    - xin chào !
+    - xinn chào
+    - hiii
+    - chào
+    - alo
+    - alo alo
+    - chào em
+    - xin chao
+    - hiiiii
+    - helo
+
+- intent: goodbye 
+  examples: |
+    - good afternoon
+    - good by
+    - good night
+    - bye
+    - goodbye
+    - bye bye
+    - chào nhé
+    - tạm biệt
+    - chào tạm biệt
+    - bai bai
+    - bai
+    - bái bai
+    - bb
+    - nói chuyện sau nhé
+    - tạm bịt
+    - bai bot
+    - gút bai
+    - good bye
+    - baibai
+    - pp
+
+- intent: thanks 
+  examples: |
+    - cam on em
+    - cảm ơn em nhá
+    - thanks em nha
+    - cảm ơn nha
+    - good job
+    - thank you
+    - cảm ơn bot nha
+
+- intent: ask_name 
+  examples: |
+    - bạn là ai
+    - bạn là
+    - mày là đứa nào
+    - cho mình tên nhé
+    - mình muốn biết tên bạn
+    - mình muốn tiện xưng hộ hơn, cho mình biết tên nhé
+    - cho em xin tên của anh ạ
+    - cho em xin tên của chị ạ
+    - được biết tên bạn thì tốt nhỉ
+    - vui lòng cho mình biết tên nhé
+    - may la dua nao
+    - Cho anh/chị quý danh?
+    - minh muon biet ten ban
+    - minh muon tien xung ho hon cho minh biet ten nhe
+
+- intent: ask_service_name 
+  examples: |
+    - Chị muốn xem dịch vụ
+    - Anh muốn xem dịch vụ
+    - Em muốn xem dịch vụ
+    - mình muốn xem dịch vụ
+    - tôi muốn xem dịch vụ
+    - chú muốn xem dịch vụ
+    - bác muốn xem dịch vụ
+    - cô muốn xem dịch vụ
+    - cho Chị xem dịch vụ
+    - cho Anh xem dịch vụ
+    - cho Em xem dịch vụ
+    - cho chú xem dịch vụ
+    - cho bác xem danh sách dịch vụ
+    - cho cô xem danh sách dịch vụ
+    - có những dịch vụ gì
+    - cho tôi xem dịch vụ
+    - hỏi dịch vụ
+    - bạn có những dịch vụ nào?
+
+- intent: list_product
+  examples: |
+    - bạn muốn biết VCC bán
+    - Tôi muốn biết VCC bán?
+    - VCC bán
+    - tôi cần biết VCC bán
+    - bên bạn có những mặt hàng nào
+    - bạn bán
+    - danh mục các mặt hàng bên bạn đang bán
+    - bạn có cung cấp đa dạng không
+
+- intent: warranty_policy 
+  examples: |
+    - Bạn đang quan tâm đến [dịch vụ](produce_name_policy), [chính sách](produce_name_policy) của VCC?  
+    - [chính sách bảo hành](produce_name_policy) là gì 
+    - có những [chính sách](produce_name_policy) nào
+    - [chính sách](produce_name_policy) bên m là gì
+    - bên bạn có những [chính sách bảo hành](produce_name_policy) nào?
+    - có những [chính sách bảo hành](produce_name_policy) nào?
+    - [chính sách bảo hành](produce_name_policy)
+    - [bảo hành](produce_name_policy)
+    - có [bảo hành](produce_name_policy) không
+    - cho xem [chính sách bảo hành](produce_name_policy)
+    - anh muốn xem [chính sách bảo hành](produce_name_policy)
+    - tôi cần [chính sách bảo hành](produce_name_policy)
+    - [chính sách bảo hành](produce_name_policy) bên bạn 
+    - bên bạn có [chính sách bảo hành](produce_name_policy) không
+    - [Chính sách bảo hành](produce_name_policy) bên bạn là gì
+    - Xin vui lòng cho biết [chính sách bảo hành](produce_name_policy) của bạn áp dụng cho này?
+    - anh muon xem [chinh sach bao hanh](produce_name_policy)
+    - toi can [chinh sach bao hanh](produce_name_policy)
+    - [chinh sach bao hanh](produce_name_policy)
+    - san pham ben ban [co chinh sach bao hanh](produce_name_policy) khong
+    - [Chinh sach bao hanh](produce_name_policy) cua ban co dieu khoan nao dac biet ma toi can luu y
+    - dép lê có [bảo hành](produce_name_policy) không?
+    - cốc có [bảo hành](produce_name_policy)?
+    - máy xay bên bạn có [chính sách bảo hành](produce_name_policy) không?
+    
+- intent: inventory 
+  examples: |
+    - [trong kho](produce_name_inventory) còn những nàos5
+    - có những nào [trong kho](produce_name_inventory)
+    - cho tôi xem [tồn kho](produce_name_inventory)
+    - điều hòa còn bao nhiêu [trong kho](produce_name_inventory)
+    - những sản phảm [tồn kho](produce_name_inventory)
+    - [kho](produce_name_inventory)còn bao nhiêu
+    - hiện đang có ở [kho](produce_name_inventory) nào
+    - [tồn kho](produce_name_inventory)
+    - sản phẩm [tồn kho](produce_name_inventory)
+    - [kho](produce_name_inventory)
+    - [tồn kho](produce_name_inventory)
+- intent: product_info 
+  examples: |
+    - máy xay sinh tố
+    - ghế massage daikiosan dvgm-20001
+    - nồi chiên không dầu kalite q5
+    - lò vi sóng , lò nướng lò nướng bluestone eob-7567
+    - máy lọc nước empire nóng nguội - 10 cấp lọc epml038
+    - máy xay thịt bluestone chb-5149
+    - công tắc, ổ cắm thông minh bộ điều khiển trung tâm home controller (hc)
+    - thiết bị gia dụng máy ép chậm kalite kl-531 200w
+    - đèn năng lượng mặt trời đèn nlmt sân vườn ufo 200w
+    - bình nước nóng gián tiếp 20 lít
+    - máy giặt aqua 9 kg aqw-f91gt.s
+    - nồi áp suất aio smart aiopto
+    - điều hòa carrier 2 chiều inverter - công suất: 18.000 btu/h (2 hp) - model 2023
+    - giảm giá cho anh nhé
+    - danh sách sản phẩm điều hòa
+    - Danh sách sản phẩm lò vi sóng
+    - Nồi chiên không dâu
+    - sản phẩm
+    - lò vi sóng giá 5 nghìn đồng
+    - tên lửa 300 nghìn
+    - máy xay
+    - Tôi muốn mua bàn là giá 500 k và máy sấy 100 g
+    - bán rẻ cho anh nhé
+    - máy xay giá cao nhất
+    - điều hòa có trên 10 triệu
+    - Điều hòa giá rẻ
+    - máy bay có giá phải chăng
+    - tôi cần tìm bếp từ rẻ
+    - Đèn năng lượng mặt trời cao cấp
+    - giá đắt thế này thì ai mua
+    - Máy giặt 20 tr
+    - máy sấy có dưới 10 đồng
+    - điều hòa nào có giá 10 tỉ
+    - bình nước nóng chứa được bao nhiêu lít
+    - hãy giới thiệu lại để anh mua nào
+    - đèn năng lượng mặt trời giá cao
+    - cho tôi bình nước nóng có dung tích 30 l
+    - máy lọc không khí daikin mc30vvm - h
+    - Đèn năng lượng mặt trời công suất 90 Watt
+    - tại sao tôi mua sản phẩm bên bạn
+    - Bếp từ nào có công suất lớn nhất
+    - Bên bán có bán điều hòa có công suất 12000 kw
+    - Đèn năng lượng mặt trời có câm nặng tầm 3 kg có giá dưới 1 tr
+    - cho tôi máy giặt có khối lượng 13 kg
+    - thiết bị giá trên 10 tr, tủ lanh 3 tr
+    - đèn năng lượng giá ngon
+    - đèn năng lượng 100 k
+    - Tôi quan tâm hơi nước 10 l
+    - nồi cơm chứa được mấy kg gạo
+    - kilogram
+    - sản phẩm này xấu lắm
+    - bình nước nóng nào có dung tích trên 500 ml
+    - tôi không muốn mua
+    - Tôi cần tìm bịnh đun nước có sức chứa 1 ml
+    - điều hòa nào có khối lượng từ 5 kg trở lên
+    - lò nướng KALITE 4 l
+    - Bếp từ nào có công suất lớn nhất
+    - Tôi cần tìm Robot hút bụi nào có giá cả phải chăng nhất
+    - Tôi cần Robot hút bụi nào có công suất hút bụi mạnh nhất
+    - Có máy giặt nào có dung tích lớn hơn 10 g không
+    - tôi vừa hỏi những gì
+    - Có lò nướng nào có thể tích lớn hơn 45 không
+    - Máy giặt nào có khối lượng giặt 10 kg và giá khoảng 10 tr đồng
+    - điều hòa có giá 10 tr và công suất 9000 kw
+    - điều hòa Daikin 2 chiều Inverte 2023, có công suất 9000 BTU
+    - nồi cơm điện đắt
+    - ghế massage daikiosan có đắt không
+    - đèn năng lượng mặt trời có cân nặng tầm 3 kg dưới 1 tr, thời gian chiếu sáng 20h
+    - tôi vừa hỏi gì
+    - Tôi cần tìm kiếm Bình nóng lạnh dung tích 20
+    - cho tôi máy lọc không khí trên 500 k
+    - Điều hòa Daikin 2 chiều Inverter 2023 có khả năng làm lạnh hiệu quả hơn điều hòa MDV 2 chiều Inverter 2023
+    - Máy lọc nước Karofi KAQ-U06V và Máy lọc nước Empire Nóng Nguội - 10 cấp lọc EPML038 cái nào tốt hơn?
+    - nồi cơm điện và nồi áp suất có điểm gì khác nhau
+    - so sánh bếp từ đôi và bếp từ đơn cái nào có công suất lớn hơn
+    - ghế massage daikiosan có gì khác so với các ghế massage thông thường
+    - Bình nóng lạnh và bình đun nước có gì khác nhau
+    - so sánh
+    - so sánh điều hòa daikin và điều hòa LG tầm giá 10 triệu
+    - robot hút bụi so sánh cùng máy hút bụi cái nào sạch
+    - hãy so sánh cho tôi quạt điều hòa và quạt năng lượng mặt trời
+    - Lò vi sóng và nồi cơm điện đều có gì khác biệt
+    - sự khác biệt giữa sản phẩm máy lọc không khí và máy lọc nước
+    - so với điều hòa Daikin thì điều hòa Mdv có ưu điểm là gì
+    - thiết bị webcam so với thiết bị camera cái nào rẻ
+    - giá của điều hòa Carrier với điều hòa Daikin có tương đương nhau không
+    - phân biệt nồi cơm điện và nồi áp suất
+    - nồi cơm điện và nồi áp suất có gì giống nhau
+    - lấy cho tôi sản phẩm điều hòa có số liệu tương tự với điều hòa Daikin
+    - có bao nhiêu loại điều hòa
+    - Bao nhiêu máy giặt lồng ngang đang có sẵn?
+    - số lượng lò nướng KALITE 4 lít hiện còn bao nhiêu?
+    - Bên bạn có bao nhiêu loại bếp từ công suất lớn?
+    - Bên bạn có bao nhiêu loại bếp từ công suất lớn?
+    - Số lượng sản phẩm điều hòa Carrier 1 chiều là bao nhiêu?
+    - có bao nhiêu sản phẩm máy giặt
+    - bao nhiêu
+    - có mấy loại máy giặt, điều hòa
+    - Có tổng số điều hòa
+    - tôi cần tìm tổng số bàn là bạn có
+    - số lượng
+    - tổng số lò nướng, lò vi sóng đang bán chạy
+    - bao nhiêu đèn năng lượng mặt trời 
+    - số lượng nồi chiên không dầu là
+    - mấy
+    - bàn là có số lượng nhiều không
+    - có mấy hãng bếp từ
+    - máy lọc không khí có mấy cái
+    - I want a pizza
+    - What is the weather like?
+    - Who built you?
+    - Are you going to take over the world?
+    - Please do my shopping
+    - 1 + 1
+    - ai la tong thong 
+    - 1
+    - cho tôi xem
+    - nhà cửa
+    - xây dựng
+    - ngày sinh của bác hồ
+    - có bao nhiêu quốc gia trên thế giới
+    - cây cối
+- intent: out_of_scope
+  examples: |
+    - I want a pizza
+    - What is the weather like?
+    - Who built you?
+    - Are you going to take over the world?
+    - Please do my shopping
+    - 1 + 1
+    - ai la tong thong 
+    - 1
+    - nhà cửa
+    - xây dựng
+    - cây cối
+- intent: VCC_01
+  examples: |
+    - Chủ tịch của Viettel là ai
+    - ai là chủ tịch của viettel
+    - chủ tịch viettel
+    - người đứng đầu viettel
+- intent: VCC_02
+  examples: |
+    - Ngày thành lập tập đoàn viettel
+    - thành lập tập đoàn viettel
+    - viettel thành lập ngày nào
+    - khi nào viettel thành lập
+- intent: product_similar
+  examples: |
+    - cho tôi xem [sản phẩm tương tự](search_product_similar)
+    - tôi cần [sản phẩm tương tự](search_product_similar)
+    - [sản phẩm tương tự](search_product_similar)
+    - có sản phẩm nào [tương tự](search_product_similar) không
+    - hãy cung cấp cho tôi [sản phẩm tương tự](search_product_similar)
+    - có sản phẫm nào [tương tự](search_product_similar) sản phẩm trên
+
+- intent: promotion
+  examples: |
+    - có chương trình khuyễn mãi nào đang diễn ra không
+    - Bạn có nào giảm giá không?
+    - có nào giảm giá không
+    - giảm giá
+    - này có giảm giá không
+    - Bạn có chương trình giảm giá cho các đã qua sử dụng không?
+    - Có chương trình khuyến mãi nào đang diễn ra hiện nay không?
+    - Có giá ưu đãi cho khách hàng thường xuyên không?
+    - Có bất kỳ chiết khấu nào cho mua sỉ không?
+    - Có chương trình thẻ thành viên để nhận ưu đãi giá không?
+    - có chương trình khuyến mãi nào không
+    - chương trình khuyến mãi
+    - Thành viên được hưởng những ưu đãi gì?
+    - Thành viên có được giảm giá trực tiếp khi mua hàng không?
+    - tôi muốn xem chương trình khuyến mãi
+    - hiện nay đang có chương trình khuyến mãi nào
+    - Có chương trình khuyến mãi dành riêng cho thành viên không?
+    - khuyễn mãi   
+
+- intent: support_KH 
+  examples: |
+    - Tôi gặp vấn đề với đơn hàng của mình, làm thế nào để giải quyết?
+    - toi gap van de ve don hang lam the nao de giai quyet
+    - tôi gặp vấn đề về đơn hàng làm sao để giải quyết
+    - tôi muốn giải quyết vẫn đề về đơn hàng
+    - giải quyết đơn hàng gặp vấn đề
+    - đơn hàng của tôi có vấn đề
+    - đơn hàng của tôi cần giải quyết
+    - đơn hàng gặp vấn đề hãy giải quyết cho toi
+    
+# - lookup: enword
+#   data/englishword.txt
+
+
+
+

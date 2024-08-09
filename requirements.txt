@@ -1,0 +1,23 @@
+source /home/anaconda3/bin/activate
+conda activate langchain
+
+rasa run actions
+rasa run --enable-api
+
+
+transformers
+rasa
+uvicorn
+fastapi
+requests
+langchain=0.1.13
+langchain-community=0.0.29
+# faiss-cpu
+pypdfium2
+openai
+pandas
+openpyxl
+librosa
+
+#ps aux | grep rasa
+# pip freeze | grep packaging  
